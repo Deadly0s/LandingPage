@@ -1,0 +1,15 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Start of Header section */
+.Header {
+    background-color: #1F2937;
+    display: flex;
+}
+
+button {
+    background-color: green;
+}
