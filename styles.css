@@ -1,3 +1,4 @@
+/* Universal section */
 body {
     margin: 0px;
     padding: 0px;
@@ -5,39 +6,6 @@ body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-}
-
-/* Start of Header section */
-.Header {
-    background-color: #1F2937;
-}
-.header-links {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 80px;
-
-}
-.header-content {
-    display: flex;
-    justify-content: center;
-    gap: 39px;
-    padding-bottom: 70px;
-}
-.title {
-    font-size: 36px;
-    color: #F9FAF8;
-    font-weight: 900;
-    padding: 0px;
-    margin: 0px;
-}
-
-/* Universal section */
-ul {
-    margin: 0px;
-    padding: 8px;
-    list-style: none;
-    display: flex;
-    gap: 18px;
 }
 button {
     background-color: #3882F6;
@@ -56,20 +24,173 @@ a {
     font-size: 12px;
     text-decoration: none;
 }
-p {
+
+/* Start of Header section */
+.Header {
+    background-color: #1F2937;
+}
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+.links {
+    margin: 0px;
+    padding: 8px;
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+.header-logo {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+.header-content {
+    display: flex;
+    justify-content: center;
+    gap: 118px;
+    padding-bottom: 70px;
+}
+.title {
+    font-size: 36px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0px;
+    margin: 0px;
+}
+.title p {
     font-size: 12px;
     color: #E5E7EB;
     opacity: 70%;
     margin: 0px;
     padding: 0px;
 }
-h3 {
-    font-size: 18px;
-    color: #F9FAF8;
-    margin: 0px;
-    padding: 8px;
+
+/* Start of Content section  */
+.Information {
+    display: flex;
+    justify-content: center;
 }
-img {
-    width: 350px;
-    height: 176px;
+.information-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+.information-content ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 15px;
+    text-align: center;
+    color: darkslategrey;
+}
+.information-header {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 28px 0px;
+}
+.information-imgs {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 13px;
+}
+
+/* This is the start of the Review section */
+.Review {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-quote p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: 300;
+    opacity: 70%;
+    padding-top: 90px;
+
+}
+.review-quote h6 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    opacity: 80%;
+    font-weight: bold;
+    margin-left: 430px;
+}
+
+/* This is the start of the Advert section  */
+.Advert {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.advert-banner {
+    background-color: #3882F6;
+    display: flex;
+    width: 820px;
+    height: 130px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.advert-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.advert-container h2 {
+    color: white;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+.advert-container p {
+    font-size: 14px;
+    color: lightgray;
+    opacity: 70%;
+    padding: 0px;
+    margin: 0px;
+}
+.advert-button {
+    height: 30px;
+    width: 100px;
+    background-color: #3882F6;
+    border: white solid 2px;
+    font-size: 13px;
+}
+.advert-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #3882F6;
+}
+
+/* This is the Start of the Footer Section  */
+.Footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.Footer h5 {
+    font-size: 10px;
+    color: lightgray;
+    opacity: 80%;
 }
